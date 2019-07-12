@@ -33,7 +33,17 @@ This application is built with JavaScript, Node.js, Express, Heroku,
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
 
 -->
+## Features
 
+#### Number and name of feature: Movies
+
+Estimate of time needed to complete: __1hr__
+
+Start time: 9:30 AM
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 ## Credits and Collaborations
@@ -48,14 +58,4 @@ Manish KC
 Jane Hur
 
 
-## Features
 
-#### Number and name of feature: 
-
-Estimate of time needed to complete: __1hr__
-
-Start time: 
-
-Finish time: 
-
-Actual time needed to complete: 
