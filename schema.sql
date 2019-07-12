@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS weathers;
 DROP TABLE IF EXISTS events;
 DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS restaurants;
 DROP TABLE IF EXISTS locations;
 
 CREATE TABLE locations (
@@ -34,10 +35,20 @@ CREATE TABLE movies (
   title VARCHAR(255),
   overview VARCHAR(255),
   average_votes VARCHAR(255),
-  total_votes VARCHAR(255),
+  total_votes NUMERIC(10, 7),
   image_url VARCHAR(255),
   popularity NUMERIC(10, 7),
-  released_on DATE,location_id INTEGER NOT NULL,
+  released_on DATE,
+  location_id INTEGER NOT NULL,
   FOREIGN KEY (location_id) REFERENCES locations (id)
-
 );
+
+CREATE TABLE restaurants (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  image_url VARCHAR(255),
+  price NUMERIC(10, 7),
+  url VARCHAR(255),
+  location_id INTEGER NOT NULL,
+  FOREIGN KEY (location_id) REFERENCES locations (id)
+)

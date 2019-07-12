@@ -41,11 +41,19 @@ Estimate of time needed to complete: __1hr__
 
 Start time: 9:30 AM
 
+Finish time: 11:30
+
+Actual time needed to complete: 2 hours
+
+#### Number and name of feature: Yelp
+
+Estimate of time needed to complete: __2hr__
+
+Start time: 11:45 AM
+
 Finish time: 
 
 Actual time needed to complete: 
-
-
 ## Credits and Collaborations
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
